@@ -6,19 +6,19 @@ SMODS.Joker{
             '{X:red,C:white}x#1#{C:red} Mult{}, {C:red}BUT{}',
             '{C:red}lose {C:money}$#2#{} when scored'
         }
-    }
+    },
     atlas = 'jokers',
-    rarity = 3
-    cost = 12
-    unlocked = true
-    discovered = true
+    rarity = 3,
+    cost = 12,
+    unlocked = true,
+    discovered = true,
     blueprint_compat = true, 
     eternal_compat = true, 
     perishable_compat = true,
     pos = {x = 0, y = 0},
     config = {extra = {
         Xmult = 1.5
-    }
+    },
     loc_vars = function(self, info_queue, card)
 		return { vars = { card.ability.extra.Xmult,
 	end,
@@ -37,3 +37,4 @@ SMODS.Joker{
 		end
 	end
 }
+ }
