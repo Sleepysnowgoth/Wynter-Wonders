@@ -1,0 +1,16 @@
+{
+	"id": "Wynter_Wonders",
+	"name": "Wynter Wonders",
+	"display_name": "sleepygoth",
+	"author": ["SleepySnowGoth & Demi"],
+	"description": "A mod by SleepySnowGoth and demi, check me out at TTV/sleepysnowgoth",
+	"prefix": "Fridged",
+	"main_file": "WynterWonders.lua",
+	"priority": 0,
+	"badge_colour": "CCCCFF",
+	"badge_text_colour": "FFFFFF",
+	"version": "0.1",
+	"dependencies": [
+		"Steamodded (>=1.0.0~ALPHA-1324a)"
+	]
+}
