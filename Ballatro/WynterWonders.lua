@@ -20,7 +20,7 @@ SMODS.Joker{
         Xmult = 1.5
     },
     loc_vars = function(self, info_queue, card)
-		return { vars = { card.ability.extra.Xmult,
+		return { vars = { card.ability.extra.Xmult,} }
 	end,
 	calculate = function(self, card, context)
 		if context.individual and context.cardarea == G.play then

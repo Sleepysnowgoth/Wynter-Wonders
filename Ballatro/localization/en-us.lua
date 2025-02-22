@@ -32,7 +32,15 @@ return {
                         "copy of {C:attention}Death tarot card for",
                         "each {C:attention}Glass card that is destroyed",
                     }
-                }
+                },
+                j_cold_dollar = {
+                    name = "Spare Change",
+                    text = {
+                        "When you gain {C:money}${} you instead",
+                        "gain that much +1",
+                    }
+                },
+                
             }
             }            
     }
